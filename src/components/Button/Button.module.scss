@@ -1,0 +1,40 @@
+.button {
+  color: #ffffff;
+  cursor: pointer;
+  &.sm {
+    font-size: 18px;
+    height: 52px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  &.md {
+    font-size: 24px;
+    height: 75px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  &.outlined {
+    border: 2px solid #0000;
+    border-radius: 50px;
+    background:
+      linear-gradient(#020409, #020409) padding-box,
+      linear-gradient(to right bottom, #963488, #fc6f32 50%, #ff4a59 100%) border-box;
+    &:hover {
+      background: linear-gradient(to right bottom, #963488, #fc6f32 50%, #ff4a59 100%) border-box;
+    }
+  }
+
+  &.textOnly {
+    border: none;
+    background-color: transparent;
+    background-image: white;
+    &:hover {
+      color: transparent;
+      background-clip: text;
+      background-size: 100%;
+      background-image: linear-gradient(to right bottom, #963488, #fc6f32 50%, #ff4a59 100%);
+    }
+  }
+}

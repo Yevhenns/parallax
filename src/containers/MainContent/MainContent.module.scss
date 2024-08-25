@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  .buttonsWrapper {
+    display: flex;
+    gap: 24px;
+  }
+  p {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,26 @@
+.wrapper {
+  h2 {
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .imagesWrapper {
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-start;
+    div {
+      animation: swiper 10s linear infinite;
+    }
+  }
+}
+
+@keyframes swiper {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
